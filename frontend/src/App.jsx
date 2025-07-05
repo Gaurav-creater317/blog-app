@@ -49,7 +49,7 @@ function App() {
         <Route exact path="/blog/update/:id" element={<UpdateBlog />} />
 
         {/* Universal route */}
-        {/*<Route path="*" element={<NotFound />} />*/}
+        {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
       <Toaster />
       {!hideNavbarFooter && <Footer />}
